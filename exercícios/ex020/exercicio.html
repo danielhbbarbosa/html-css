@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Ex</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            font: normal 20px "Montserrat", sans-serif;
+            background-color: black;
+            color: white;
+            text-align: justify;
+            padding: 10px;
+        }
+
+        h1, h2 {
+            text-align: center;
+
+        }
+
+        h1{
+            font-weight: 900;
+            text-decoration: underline;
+        }
+
+        h1::first-letter {
+            font-size: 1.2em;
+        }
+
+        h1:hover {
+            color: rgba(255, 0, 0, 0.877);
+            text-decoration: none;
+        }
+
+        h1:active {
+            color: green;
+        }
+
+        h2{
+            font-weight: lighter;
+        }
+
+        h2::after {
+            content: '!';
+        }
+
+        h2:hover {
+            text-decoration: underline;
+            text-shadow: 2px 2px 2px rgb(219, 197, 197);
+        }
+
+        h2:active {
+            color: rgb(136, 255, 0);
+        }
+
+        .destaque:active {
+            color: rgb(26, 141, 141);
+        }
+
+        .destaque:hover {
+            color: rgba(35, 191, 218, 0.877)   ;
+        }
+        ::selection {
+            background-color: gray;
+            color: rgb(255, 230, 0);
+        }
+
+        ::marker {
+            color: rgba(106, 198, 226, 0.842);
+        }
+
+        div > p {
+            display: none;
+            text-align: center;
+            text-decoration: overline;
+        }
+
+        div:hover > p {
+            display: block;
+            color: rgb(228, 218, 80);
+        }
+        
+        a {
+            color: rgb(238, 255, 0);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: rgb(46, 211, 120);
+        }
+
+        li:active {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste</h1>
+    <h2>Olá, Mundo</h2>
+    <p class="destaque">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorem explicabo, a molestiae blanditiis quibusdam error nisi eum porro delectus nulla aspernatur beatae! Eaque sit maiores similique perspiciatis nemo maxime. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae perferendis laborum, dolores repellendus quaerat optio quo cupiditate, excepturi cumque debitis at laboriosam nam necessitatibus vero error consequuntur id illum enim!</p>
+    <div class="destaque">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus deleniti assumenda beatae nobis, dignissimos vitae nam impedit magni consequuntur soluta, officiis iste obcaecati aperiam voluptatibus commodi necessitatibus! Aut, praesentium provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, eaque perferendis, voluptatem saepe maiores expedita dicta reprehenderit laboriosam, aspernatur dignissimos quod dolore tempore voluptas est ex aperiam officia vero ea.
+        <p>Texto escondido!!!</p>
+    </div>
+    <ul type="circle">
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Arroz</a></li>
+        <li><a href="pseudoclasse.html" target="_blank">Arroz</a></li>
+        <li>Arroz</li>
+        <li>Arroz</li>
+        <li>Arroz</li>
+    </ul>
+</body>
+</html>
