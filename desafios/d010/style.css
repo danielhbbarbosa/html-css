@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+@font-face{
+    font-family: 'idroid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #37C777, #299257, #1A5C38 95%);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin: -8px -8px -16px -8px;
+}
+header h1{
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;   
+}
+.menu {
+    list-style: none;
+    display: flex;
+    padding-left: 10px;
+}
+.menu li{
+    padding: 10px;
+    font-weight: bold;
+}
+
+.menu > li:hover {
+    background-color: #37C777;
+    color: #1f7042;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+body{
+    background-color: #84E1AD;
+    text-align: justify;
+}
+
+main {
+    background-color: #ffffff;
+    width: 829px;
+    margin: auto;
+    padding: 15px;
+}
+
+.images{
+    display: flex;
+    margin: auto;
+}
+
+main h1, h2{
+    color: #316E4D;
+    font-family: 'idroid';
+}
+
+main h2 {
+    background-image: linear-gradient(to right, #C5EBD6, #DBF3E6, #EAF7F0, #fff);
+}
+
+.video {
+    width: 839px;
+    margin: auto;
+    background-color: #1A5C38;
+    padding: 20px 10px 20px 10px;
+}
+
+.iframe {
+    display: flex;
+    margin: auto;
+}
+
+.article {
+    background-color: white;
+    width: 839px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.verde {
+    background: #2FA866;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+.fundo {
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+.margem{
+    padding: 0px 10px 0px 10px;
+}
+
+.colunas {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.colunas li {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+    height: 21px;
+    width: 101%;
+    margin: 0px 0px -8px -5px;
+    text-align: center;
+    font-size: 13px;
+}
+
+footer p {
+    padding-top: 3px;
+}
+
+main, article {
+    box-shadow: 3px 5px 2px #67b187;
+}
+
+span {
+    color: #1f7042;
+    font-weight: bold;
+}
+
+.link {
+    background-color: #84E1AD;
+    padding: 1px 3px;
+}
+
+.link:hover { 
+    text-decoration: underline;
+}
