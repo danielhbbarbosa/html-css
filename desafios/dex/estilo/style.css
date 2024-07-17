@@ -87,6 +87,10 @@ nav > a#contato {
     background-color: var(--cor1);
 }
 
+nav > a.redes {
+    padding-right: 0px;
+}
+
 nav > a.redes img{
     padding: 0px;
     width: 25px;
@@ -106,60 +110,32 @@ nav > a#contato:hover {
 }
 
 main {
-    background-color: var(--cor);
-    border: 1px solid white;
-    min-width: 320px;
-    max-width: 800px;
-    margin: auto;
-    padding: 15px;
+
 }
 
-main h1, h2, h3{
-    font-family: var(--font1);
-    text-decoration: underline;
-    margin: 10px 0px;
+
+section {
+    height: 400px;
+    background: url(../imagens/mesa.jpg) no-repeat;
+    background-position: center;
+    padding: 200px 30px 120px 30px;
+    color: var(--cor);
+    text-transform: uppercase;
+    display: grid;
 }
 
-main a {
-    color: var(--cor2);
-    background-color: var(--cor);
-    border-radius: 5px;
-    padding: 2px 6px;
-    font-weight: bold;
-    font-size: 1.1em;
+section > h1 {
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-family: var(--font);
+    margin-bottom: 15px;
 }
 
-main a:hover {
-    color: white;
+section > h2 {
+    font-family: var(--font3);
+    font-size: 5em;
 }
 
-main img {
-    display: block;
-    margin: auto;
-}
-
-article {
-    border: 1px dashed white;
-    text-align: justify;
-    line-height: 2em;
-}
-
-aside {
-    border: 1px dashed white;
-    padding: 5px;
-    margin-top: 1em;
-}
-
-aside > h3 {
-    text-align: center;
-}
-
-aside > ul {
-    list-style-type: '\2B50\00A0\00A0';
-    list-style-position: inside;
-    text-align: center;
-    columns: 2;
-}
 footer {
     margin-top: 40px;
     border: 1px solid white;
