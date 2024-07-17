@@ -15,13 +15,19 @@
     src: url(../fontes/Auristela\ FREE.ttf);
 }
 
+@font-face {
+    font-family: 'Aesthetic';
+    src: url(../fontes/Aesthetic.ttf);
+}
+
 :root {
-    --cor1: #cfc6c6;
-    --cor: #ff92d5;
+    --cor: #ffffff;
+    --cor1: #9bd9e9;
     --cor2: #684d4d;
     --font: 'Saudagar', Helvetica, sans-serif;
     --font1: 'Auristela', sans-serif;
     --font2: 'Roman', serif;
+    --font3: 'Aesthetic', serif;
 }
 
 
@@ -33,8 +39,9 @@
 body {
     font-family: var(--font);
     font-weight: 600;
-    background-color: #000000;
+    background-color: var(--cor);
     color: white;
+    color: #000000;
 }
 
 a.externo::after {
@@ -42,41 +49,64 @@ a.externo::after {
 }
 
 header {
-    border: 1px solid black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
+    border-bottom: 1px solid black;
     text-align: center;
-    background-color: var(--cor1);
+    background-color: var(--cor);
 }
 
 header > h1 {
-    font-family: var(--font1);
-    font-size: 3em;
-    color: black;
+    height: 73px;
+    width: 300px;
+    font-family: var(--font3);
+    font-size: 2.2em;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+    color: #000000;
 }
+
 nav {
-    border: 1px solid white;
-    padding: 2px 10px 2px 5px;
-    background-color: var(--cor1);
+    padding: 0px 20px 0px 20px;
     display: flex;
     justify-content: flex-end;
 }
 
 nav > a {
-    padding: 5px 10px ;
+    text-align: center;
+    padding: 10px 20px;
     text-decoration: none;
     color: #000000;
 }
 
+nav > a#contato {
+    border: 1px solid var(--cor1);
+    background-color: var(--cor1);
+}
+
+nav > a.redes img{
+    padding: 0px;
+    width: 25px;
+    height: 25px;
+}
+
 nav > a:hover {
-    text-decoration: underline;
-    color: var(--cor2);
+    color: var(--cor1);
     background-color: var(--cor);
     border-radius: 4px;
     transition-duration: 0.5s;
 }
 
+nav > a#contato:hover {
+    background-color: var(--cor);
+    color: var(--cor1);
+}
+
 main {
-    background-color: rgba(61, 61, 61, 0.425);
+    background-color: var(--cor);
     border: 1px solid white;
     min-width: 320px;
     max-width: 800px;
@@ -101,6 +131,11 @@ main a {
 
 main a:hover {
     color: white;
+}
+
+main img {
+    display: block;
+    margin: auto;
 }
 
 article {
