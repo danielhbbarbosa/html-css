@@ -125,9 +125,9 @@ main {
 
 
 section {
-    height: 400px;
-    background: url(../imagens/mesa.jpg) no-repeat;
-    background-position: center;
+    height: 500px;
+    background: url(../imagens/mesa.jpg) no-repeat fixed;
+    background-size: cover;
     padding: 200px 30px 120px 30px;
     color: var(--cor);
     text-transform: uppercase;
