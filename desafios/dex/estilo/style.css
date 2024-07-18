@@ -81,7 +81,7 @@ nav > a {
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
-    padding: 10px 20px;
+    padding: 15px 20px;
     text-decoration: none;
     color: #000000;
 }
@@ -96,7 +96,6 @@ nav > a:hover {
 nav > a#contato {
     border: 1px solid var(--cor1);
     background-color: var(--cor1);
-    border-radius: 5px;
 }
 
 nav > a#contato:hover {
