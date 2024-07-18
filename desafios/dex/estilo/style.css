@@ -126,7 +126,7 @@ main {
 
 section {
     height: 500px;
-    background: url(../imagens/mesa.jpg) no-repeat fixed;
+    background: url(../imagens/mesa.jpg) no-repeat;
     background-size: cover;
     padding: 200px 30px 120px 30px;
     color: var(--cor);
@@ -144,7 +144,6 @@ section > h1 {
     letter-spacing: 5px;
     font-weight: 500;
     font-family: var(--font);
-    margin-bottom: 15px;
 }
 
 section > h2 {
