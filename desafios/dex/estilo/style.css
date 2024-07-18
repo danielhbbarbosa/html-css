@@ -135,7 +135,8 @@ section {
 }
 
 section:hover {
-    opacity: 90%;
+    opacity: 80%;
+    transition-duration: 0.8s;
 }
 
 section > h1 {
