@@ -20,6 +20,15 @@
     src: url(../fontes/FuturaCyrillicBook.ttf);
 }
 
+@media only screen and (max-width: 605px) {
+    header > h1 {
+        margin: auto;
+    }
+
+    nav > a {
+        display: none;
+    }
+}
 
 :root {
     --cor: #ffffff;
@@ -49,7 +58,7 @@ a.externo::after {
 }
 
 header {
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -216,6 +225,7 @@ div#flex > div > div#link > a {
 div#flex > div > div#link > a:hover {
     background-color: #fff;
     color: var(--cor1);
+    text
     border: 2px solid var(--cor1);
 }
 
