@@ -21,12 +21,37 @@
 }
 
 @media only screen and (max-width: 605px) {
+
+    header {
+        
+    }
+
     header > h1 {
         margin: auto;
     }
 
+    nav {
+        display: none;
+    } 
+    
     nav > a {
         display: none;
+    }
+
+    section#welcome {
+        padding: 100px 40px 60px 40px;
+    }
+    section#welcome > h1 {
+        font-size: 0.5em;
+    }
+    
+    section#welcome > h2 {
+        font-size: 3em;
+    }
+    
+    section#welcome > div > a {
+        font-size: 0.8em;
+    
     }
 }
 
@@ -79,7 +104,6 @@ header > h1 {
 }
 
 nav {
-    padding: 0px 20px 0px 20px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -135,9 +159,9 @@ main {
 section#welcome {
     text-shadow: 0px 1px 4px #0000009f;
     height: 500px;
+    padding: 200px 40px 120px 40px;
     background: url(../imagens/mesa.jpg) no-repeat;
     background-size: cover;
-    padding: 200px 40px 120px 40px;
     color: var(--cor);
     text-transform: uppercase;
     display: grid;
@@ -194,6 +218,7 @@ section#works > h1 {
 
 div#flex {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
     font-size: 0.8em;
