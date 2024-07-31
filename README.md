@@ -1,6 +1,8 @@
 # html-css
  Curso HTML5 e CSS3
 
+Exercícios:
+
 <a href='exercícios/ex001/index.html'>Exercícios 001 </a>
 <br>
 <a href='exercícios/ex002/d001.html'>Exercícios 002a </a>
@@ -82,18 +84,32 @@
 <a href='exercícios/ex022/fundo006.html'>Exercícios 022f </a>
 <br>
 
+Desafios:
 
-
-
-
-
-
-
-
-
-
-
-
+<a href='desafios/d002/index.html'>Desafio 002 </a>
+<br>
+<a href='desafios/d003/index.html'>Desafio 003 </a>
+<br>
+<a href='desafios/d004/index.html'>Desafio 004 </a>
+<br>
+<a href='desafios/d005/index.html'>Desafio 005 </a>
+<br>
+<a href='desafios/d006/index.html'>Desafio 006 </a>
+<br>
+<a href='desafios/d007/index.html'>Desafio 007 </a>
+<br>
+<a href='desafios/d008/index.html'>Desafio 008 </a>
+<br>
+<a href='desafios/d009/index.html'>Desafio 009 </a>
+<br>
+<a href='desafios/d010/index.html'>Desafio 010 </a>
+<br>
+<a href='desafios/d010b/android.html'>Desafio 010b </a>
+<br>
+<a href='desafios/d010b/responsivo.html'>Desafio 010b.2 </a>
+<br>
+<a href='desafios/dex/index.html/responsivo.html'>Desafio dex </a>
+<br>
 
 
 
