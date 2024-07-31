@@ -256,7 +256,14 @@ div#flex > div > div.link > a:hover {
 }
 
 section#about {
+    display: flex;
     padding: 125px 40px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+section#about > div#aboutimg {
+    padding-right: 30px;
 }
 
 footer {
