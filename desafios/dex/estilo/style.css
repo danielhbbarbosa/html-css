@@ -251,20 +251,73 @@ div#flex > div > div.link > a {
 div#flex > div > div.link > a:hover {
     background-color: #fff;
     color: var(--cor1);
-    text
     border: 2px solid var(--cor1);
 }
 
 section#about {
     display: flex;
     padding: 125px 40px;
+    font-family: var(--font1);
     font-size: 0.8em;
     text-transform: uppercase;
 }
 
 section#about > div#aboutimg {
-    padding-right: 30px;
+    padding-right: 17px;
 }
+
+section#about > div#sobre {
+    padding: 0px 17px;
+}
+
+section#about > div#sobre > h1, h2 {
+    letter-spacing: 8px;
+    line-height: 50px;
+
+}
+
+section#about > div#sobre > h1 {
+}
+
+section#about > div#sobre > h2 {
+    font-size: 3.5em;
+}
+
+section#about > div#sobre > hr {
+    margin: 17px 0px;
+    height: 3px;
+    width: 64px;
+    background-color: var(--cor1);
+    color: var(--cor1);
+    border: 0px;
+}
+
+section#about > div#sobre > p {
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 17px 0px;
+    margin-bottom: 17px;
+    color: #656464;
+    line-height: 30px;
+    text-transform: none;
+}
+
+section#about > div#sobre > div#button {
+    padding: 17px;
+}
+
+section#about > div#sobre > div#button > a {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid var(--cor1);
+    padding: 17px;
+    background-color: var(--cor1);
+
+}
+
 
 footer {
     margin-top: 40px;
