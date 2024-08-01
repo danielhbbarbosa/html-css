@@ -315,7 +315,6 @@ section#about > div#sobre > div#button > a {
     border: 1px solid var(--cor1);
     padding: 17px;
     background-color: var(--cor1);
-
 }
 
 
@@ -326,17 +325,3 @@ footer {
     font-weight: bold;
     background-image: linear-gradient(to right, #ff92d5, black);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
