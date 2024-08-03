@@ -83,6 +83,8 @@ Exercícios:
 <br>
 <a href='exercícios/ex022/fundo006.html' target="blank">Exercícios 022f </a>
 <br>
+<a href='exercícios/ex022/fundo007.html' target="blank">Exercícios 022g </a>
+<br>
 
 Desafios:
 
