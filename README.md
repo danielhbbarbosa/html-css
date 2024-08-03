@@ -1,7 +1,7 @@
 # html-css
- Curso HTML5 e CSS3
+ <h1>Curso HTML5 e CSS3</h1>
 
-Exercícios:
+<h1>Exercícios:</h1>
 <ul>
     <li>
     <a href='exercícios/ex001/index.html' target="blank">Exercícios 001 </a>
