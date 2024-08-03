@@ -129,33 +129,44 @@ Exercícios:
 </ul>
 
 
-Desafios:
+<h1>Desafios:</h1>
 
+<li>
 <a href='desafios/d002/index.html' target="blank">Desafio 002 </a>
-<br>
+</li>
+<li>
 <a href='desafios/d003/index.html' target="blank">Desafio 003 </a>
-<br>
+</li>
+<li>
 <a href='desafios/d004/index.html' target="blank">Desafio 004 </a>
-<br>
+</li>
+<li>
 <a href='desafios/d005/index.html' target="blank">Desafio 005 </a>
-<br>
+</li>
+<li>
 <a href='desafios/d006/index.html' target="blank">Desafio 006 </a>
-<br>
+</li>
+<li>
 <a href='desafios/d007/index.html' target="blank">Desafio 007 </a>
-<br>
+</li>
+<li>
 <a href='desafios/d008/index.html' target="blank">Desafio 008 </a>
-<br>
+</li>
+<li>
 <a href='desafios/d009/index.html' target="blank">Desafio 009 </a>
-<br>
+</li>
+<li>
 <a href='desafios/d010/index.html' target="blank">Desafio 010 </a>
-<br>
+</li>
+<li>
 <a href='desafios/d010b/android.html' target="blank">Desafio 010b </a>
-<br>
+</li>
+<li>
 <a href='desafios/d010b/responsivo.html' target="blank">Desafio 010b.2 </a>
-<br>
+</li>
+<li>
 <a href='desafios/dex/index.html' target="blank">Desafio dex </a>
-<br>
-
+</li>
 
 
 
