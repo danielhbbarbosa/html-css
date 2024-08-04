@@ -1,7 +1,9 @@
 # html-css
  <h1>Curso HTML5 e CSS3</h1>
+ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<h1>Exercícios:</h1>
+
+<h2>Exercícios:</h2>
 <ul>
     <li>
     <a href='exercícios/ex001/index.html' target="blank">Exercícios 001 </a>
@@ -129,7 +131,7 @@
 </ul>
 
 
-<h1>Desafios:</h1>
+<h2>Desafios:</h2>
 
 <li>
 <a href='desafios/d002/index.html' target="blank">Desafio 002 </a>
@@ -167,22 +169,3 @@
 <li>
 <a href='desafios/dex/index.html' target="blank">Desafio dex </a>
 </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
