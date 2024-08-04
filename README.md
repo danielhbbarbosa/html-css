@@ -3,7 +3,9 @@
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
 
-<h2>Exercícios:</h2>
+<h2>Exercícios:
+<a class="anchorjs-link " href="exercícios/ex022/fundo007.html" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a>
+</h2>
 <ul>
     <li>
     <a href='exercícios/ex001/index.html' target="blank">Exercícios 001 </a>
@@ -131,7 +133,9 @@
 </ul>
 
 
-<h2>Desafios:</h2>
+<h2>Desafios:
+<a class="anchorjs-link " href="desafios/dex/index.html" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a>
+</h2>
 
 <li>
 <a href='desafios/d002/index.html' target="blank">Desafio 002 </a>
