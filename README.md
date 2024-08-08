@@ -170,3 +170,6 @@
 <li>
 <a href='desafios/dex/index.html' target="blank">Desafio dex </a>
 </li>
+<li>
+<a href='desafios/d011/index.html' target="blank">Desafio 011 </a>
+</li>
