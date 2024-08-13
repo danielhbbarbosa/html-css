@@ -6,6 +6,11 @@
 /*font-family: "Sriracha", cursive;*/
 
 
+:root {
+    --font: "Passion One", sans-serif;
+    --font1: "Sriracha", cursive;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,5 +23,12 @@ body {
 header {
     background-color: black;
     color: white;
-    font-family: ;
+    text-align: center;
+    padding: 4%;
+}
+
+header > h1 {
+    font-family: var(--font);
+    font-size: 2.5em;
+    text-transform: uppercase;
 }
