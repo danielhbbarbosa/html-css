@@ -173,3 +173,7 @@
 <li>
 <a href='desafios/d011/index.html' target="blank">Desafio 011 </a>
 </li>
+<a href='desafios/d012//index.html' target="blank">Desafio 012 </a>
+</li>
+<a href='desafios/d012b//index.html' target="blank">Desafio 012b </a>
+</li>

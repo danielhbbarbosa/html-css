@@ -1,10 +1,14 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
-/* font-family: "Passion One", sans-serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-/*font-family: "Sriracha", cursive;*/
+@font-face {
+    font-family: "Passion One";
+    src: url('../fontes/PassionOne.ttf');
+}
 
+@font-face {
+    font-family: "Sriracha";
+    src: url('../fontes/Sriracha.ttf');
+}
 
 :root {
     --font: "Passion One", sans-serif;
@@ -21,14 +25,67 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
-    color: white;
-    text-align: center;
-    padding: 4%;
+    height: 260px;
 }
 
-header > h1 {
+div#header {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+div#header > h1 {
     font-family: var(--font);
-    font-size: 2.5em;
-    text-transform: uppercase;
+    font-size: 8.5em;
+    font-variant: small-caps;
+    letter-spacing: 5px;
+}
+
+div#header > p > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+div#header > p > a:hover {
+    text-decoration: underline;
+}
+
+section {
+    font-family: var(--font1);
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding: 10vh 0px 10vh 30px;
+}
+
+section.normal > p {
+    padding-bottom: 96px;
+}
+
+section.img {
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.491);
+}
+
+section.img > p{
+    background-color: rgba(0, 0, 0, 0.512);
+    display: inline-block;
+    padding: 5px;
+    color: rgb(243, 238, 238);
+}
+
+section#flor {
+    background: url(../imagens/background001.jpg) center center fixed;
+}
+
+
+
+section#livro {
+    background: url(../imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 60px 0px 60px 30px;
 }
