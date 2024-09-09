@@ -20,7 +20,7 @@
     src: url(../fontes/FuturaCyrillicBook.ttf);
 }
 
-@media only screen and (max-width: 605px) {
+@media only screen and (max-width: 685px) {
 
     header {
         
@@ -56,6 +56,10 @@
 
     section#about {
         flex-wrap: wrap;
+    }
+
+    section#about > div#aboutimg > img {
+        max-width: 400px;
     }
 }
 
@@ -269,6 +273,7 @@ section#about {
 section#about > div#aboutimg {
     padding-right: 20px;
 }
+
 
 section#about > div#sobre {
     padding: 0px 20px;
