@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+:root {
+    --cor: black;
+}
+
+body {
+    background: url(../imagens/fundo.jpg) no-repeat;
+    background-size: cover;
+    padding: 3% 10%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header > ul {
+    list-style-type: none;   
+}
+
+header > .redes > li {
+    padding: 10px;
+}
