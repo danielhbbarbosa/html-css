@@ -7,18 +7,24 @@
 body {
     background: url(../imagens/fundo.jpg) no-repeat;
     background-size: cover;
-    padding: 3% 10%;
+    padding: 4% 10%;
 }
 
 header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 header > ul {
+    display: flex;
     list-style-type: none;   
 }
 
-header > .redes > li {
-    padding: 10px;
+header > #redes > li {
+    padding: 5px;
+}
+
+header > #redes > li > a > img{
+    width: 30px;
 }
