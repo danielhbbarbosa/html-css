@@ -41,6 +41,14 @@ main > section#principal {
 }
 
 main > section#principal > h1 {
+    margin-bottom: 40px;
     font-size: 80px;
     font-weight: 200;
+}
+
+main > section#principal > p {
+    display: block;
+    width: 500px;
+    text-align: justify;
+    padding-left: 5%;
 }
