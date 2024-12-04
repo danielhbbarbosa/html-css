@@ -129,6 +129,9 @@
     <li>
         <a href='exercícios/ex022/fundo007.html' target="blank">Exercícios 022g </a>
     </li>
+    <li>
+        <a href='exercícios/ex023/tabela001.html' target="blank"> Exercícios 023 </a>
+    </li>
 </ul>
 
 
@@ -178,4 +181,7 @@
 </li>
 <li>
 <a href='desafios/d012b//index.html' target="blank">Desafio 012b </a>
+</li>
+<li>
+<a href='desafios/dport//index.html' target="blank">Desafio Portifólio </a>
 </li>
