@@ -130,7 +130,13 @@
         <a href='exercícios/ex022/fundo007.html' target="blank">Exercícios 022g </a>
     </li>
     <li>
-        <a href='exercícios/ex023/tabela001.html' target="blank"> Exercícios 023 </a>
+        <a href='exercícios/ex023/tabela001.html' target="blank"> Exercícios 023a </a>
+    </li>
+    <li>
+        <a href='exercícios/ex023/tabela002.html' target="blank"> Exercícios 023b </a>
+    </li>
+    <li>
+        <a href='exercícios/ex023/tabela003.html' target="blank"> Exercícios 023c </a>
     </li>
 </ul>
 
