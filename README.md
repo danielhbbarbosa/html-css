@@ -138,6 +138,9 @@
     <li>
         <a href='exercícios/ex023/tabela003.html' target="blank"> Exercícios 023c </a>
     </li>
+        <li>
+        <a href='exercícios/ex023/tabelateste.html.html' target="blank"> Exercícios 023c </a>
+    </li>
 </ul>
 
 
