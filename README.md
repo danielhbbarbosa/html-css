@@ -186,11 +186,21 @@
 <a href='desafios/d011/index.html' target="blank">Desafio 011 </a>
 </li>
 <li>
-<a href='desafios/d012//index.html' target="blank">Desafio 012 </a>
+<a href='desafios/d012/index.html' target="blank">Desafio 012 </a>
 </li>
 <li>
-<a href='desafios/d012b//index.html' target="blank">Desafio 012b </a>
+<a href='desafios/d012b/index.html' target="blank">Desafio 012b </a>
 </li>
 <li>
-<a href='desafios/dport//index.html' target="blank">Desafio Portifólio </a>
+<a href='desafios/d013/tabela.html' target="blank">Desafio Portifólio </a>
 </li>
+<li>
+<a href='desafios/d013/tabela2.html' target="blank">Desafio Portifólio </a>
+</li>
+<li>
+<a href='desafios/d014/index.html' target="blank">Desafio Portifólio </a>
+</li>
+<li>
+<a href='desafios/dport/index.html' target="blank">Desafio Portifólio </a>
+</li>
+
