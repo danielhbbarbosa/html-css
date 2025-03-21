@@ -138,8 +138,17 @@
     <li>
         <a href='exercícios/ex023/tabela003.html' target="blank"> Exercícios 023c </a>
     </li>
-        <li>
-        <a href='exercícios/ex023/tabelateste.html' target="blank"> Exercícios 023d </a>
+    <li>
+        <a href='exercícios/ex023/tabela004.html' target="blank"> Exercícios 023d </a>
+    </li>
+    <li>
+        <a href='exercícios/ex023/tabela005.html' target="blank"> Exercícios 023e </a>
+    </li>
+    <li>
+        <a href='exercícios/ex023/tabela006.html' target="blank"> Exercícios 023f </a>
+    </li>
+    <li>
+        <a href='exercícios/ex023/tabelateste.html' target="blank"> Exercícios 023g </a>
     </li>
 </ul>
 
@@ -203,4 +212,3 @@
 <li>
 <a href='desafios/dport/index.html' target="blank">Desafio Portifólio </a>
 </li>
-
