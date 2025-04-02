@@ -35,6 +35,11 @@ header > #redes > li > a > img{
     width: 30px;
 }
 
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
 main > section#principal {
     color: rgb(202, 196, 196);
     font-family: var(--font), sans-serif;
@@ -48,7 +53,18 @@ main > section#principal > h1 {
 
 main > section#principal > p {
     display: block;
+    font-size: 1.25em;
     width: 500px;
-    text-align: justify;
+    text-align: left;
     padding-left: 5%;
+}
+
+main > section#projects > a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+main > section#projects > a:hover {
+    text-decoration: underline;
 }
