@@ -159,6 +159,12 @@
     <li>
         <a href='exercícios/ex024/iframe003.html' target="blank"> Exercícios 024c </a>
     </li>
+    <li>
+        <a href='exercícios/ex024/iframe004.html' target="blank"> Exercícios 024d </a>
+    </li>
+    <li>
+        <a href='exercícios/ex024/iframe005.html' target="blank"> Exercícios 024e </a>
+    </li>
 </ul>
 
 

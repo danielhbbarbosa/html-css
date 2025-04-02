@@ -41,7 +41,7 @@ main {
 }
 
 main > section#principal {
-    color: white;
+    color: #ffffff;
     font-family: var(--font), sans-serif;
 }
 
@@ -59,9 +59,12 @@ main > section#principal > p {
     padding-left: 5%;
 }
 
-main > section#projects > a{
-    display: flex;
-    color: white;
+main > section#projects > ul{
+    list-style: none;
+}
+
+main > section#projects > ul > li > a {
+    color: #ffffff;
     text-decoration: none;
 }
 
