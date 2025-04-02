@@ -14,6 +14,8 @@ body {
     background: url(../imagens/fundo.jpg) no-repeat;
     background-size: cover;
     padding: 4% 10%;
+    color: #ffffff;
+    font-family: var(--font), sans-serif;
 }
 
 header {
@@ -27,22 +29,26 @@ header > ul {
     list-style-type: none;   
 }
 
-header > #redes > li {
+header > ul#redes > li {
     padding: 5px;
 }
 
-header > #redes > li > a > img{
+header > ul#redes > li > a > img{
     width: 30px;
+}
+
+header > ul#redes > li > a > img:hover{
+    width: 35px;
+    transition: 0.1s;
 }
 
 main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 main > section#principal {
-    color: #ffffff;
-    font-family: var(--font), sans-serif;
+    
 }
 
 main > section#principal > h1 {
@@ -59,15 +65,32 @@ main > section#principal > p {
     padding-left: 5%;
 }
 
+main > section#projects{
+    padding-top: 100px;
+}
+
+main > section#projects > h2{
+    padding-left: 22px;
+}
+
 main > section#projects > ul{
     list-style: none;
 }
 
-main > section#projects > ul > li > a {
-    color: #ffffff;
-    text-decoration: none;
+main > section#projects > ul > li{
+    padding: 7px;
 }
 
-main > section#projects > a:hover {
-    text-decoration: underline;
+main > section#projects > ul > li > a {
+    padding-bottom: 3px;
+    color: #ffffff;
+    font-family: var(--font), sans-serif;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #ab0202, #170000) 1;
+}
+
+main > section#projects > ul > li > a:hover {
+    font-size: 1.2em;
+    transition: 1s;
 }
