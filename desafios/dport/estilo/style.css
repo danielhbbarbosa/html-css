@@ -41,7 +41,7 @@ main {
 }
 
 main > section#principal {
-    color: rgb(202, 196, 196);
+    color: white;
     font-family: var(--font), sans-serif;
 }
 
